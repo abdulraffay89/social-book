@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+
+      <style>
+        #toggle_wrapper{
+         width: 30px;
+         height: 15px;
+         border: 1px solid black;   
+         position: relative;
+         top: 200px;
+         margin: auto;
+         border-radius: 50px;
+         transition: 0.6s;
+         
+        }
+        #toggle_btn{
+            width: 15px;
+            height: 15px;
+            background: rgb(42, 96, 245);
+            border-radius: 50%;
+            position: absolute;
+            transition: 0.3s;
+            left: 0;
+        }
+        #toggle_container{
+            background: rgb(94, 142, 247);
+            position: relative;
+            width: 40%;
+            height:100%;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+      </style>
+</head>
+<body>
+       <div id="toggle_wrapper">
+           <div id="toggle_container">
+            <div id="toggle_btn"></div>
+           </div>
+       </div>
+       <script>
+           let toggle_wrapper = document.getElementById('toggle_wrapper');
+           let toggle_container = document.getElementById('toggle_container');
+           let toggle_btn = document.getElementById('toggle_btn');
+           toggle_wrapper.onclick = toggle;
+
+           var a = true;
+
+           function toggle(){
+            
+            if(a){
+                toggle_container.style.width = '100%';
+                toggle_btn.style.left = '50%';
+            
+               a = false;
+            }else{
+                toggle_container.style.width = '40%';
+                toggle_btn.style.left = '0%';
+
+            
+               a = true;
+            }
+
+           }
+       </script>
+</body>
+</html>

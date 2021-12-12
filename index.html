@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Socialbook</title>
+</head>
+<body>
+    <!-- --------------- Navigation ------------- -->
+    <nav>
+        <div class="nav_left">
+            <img src="images/logo.png" class="logo"></img>
+            <ul>
+                <li><img src="images/notification.png" alt="notification-icon"></li>
+                <li><img src="images/inbox.png" alt="inbox-icon"></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" class="search_icon">
+                <input type="text" placeholder="Search">
+            </div>
+            <div id="user_profile" class="user_profile online">
+                <img src="images//profile-pic.png" alt="User Profile">
+            </div>
+        </div>
+
+    </nav>
+    <div id="poppap_hide" class="user_profile_popap  poppap_hide">
+      <div class="inner_poppap">
+        <div class="poppap_row_1">
+
+            <div class="user_profile">
+                <img src="images/profile-pic.png" alt="">
+                <div class="userName">
+                    <h2>John Nicholson</h2>
+                    <div class="public">
+                        <p>see your profile</p>   
+                    </div>
+                </div>
+            </div>
+           
+           <div id="toggle_wrapper">
+                <div id="toggle_container">
+                <div id="toggle_btn"></div>
+            </div>
+        </div>
+       </div>
+
+       <div class="poppap_row_2">
+
+        <div class="user_profile">
+            <img src="images/feedback.png" alt="">
+            <div class="userName">
+                <h2>Give Feedback</h2>
+                <div class="public">
+                    <p>help us to improve the new design</p>   
+                </div>
+            </div>
+        </div>
+
+       </div>
+
+       <div class="poppap_row_3">
+         <div>
+            <img src="images/setting.png" alt="setting-icon">
+            <h3> setting & privacy</h3>
+         </div>
+         <div>
+            <img src="images/arrow.png" alt="">
+        </div>
+       </div>
+
+
+      <div class="poppap_row_3">
+        <div>
+           <img src="images/help.png" alt="setting-icon">
+           <h3> help & support</h3>
+        </div>
+        <div>
+           <img src="images/arrow.png" alt="">
+       </div>
+      </div>
+
+      <div class="poppap_row_3">
+        <div>
+           <img src="images/display.png" alt="setting-icon">
+           <h3> display & accossibility</h3>
+        </div>
+        <div>
+           <img src="images/arrow.png" alt="">
+       </div>
+      </div>
+
+      <div class="poppap_row_3">
+        <div>
+           <img src="images/logout.png" alt="setting-icon">
+           <h3> logout</h3>
+        </div>
+        <div>
+           <img src="images/arrow.png" alt="">
+       </div>
+      </div>
+      </div>
+   </div>
+    </div>
+     <!-- --------------- container ------------- -->
+     <div class="container">
+     <!-- --------------- left-sidebar ------------- -->
+         <div class="left-sidebar ">
+             <div class="impt-links">
+                 <ul>
+                     <li><img src="images/news.png" ><a href="">Latest News</a></li>
+                     <li><img src="images/friends.png"><a href="">Friends</a></li>
+                     <li><img src="images/group.png" alt=""><a href="">Group</a></li>
+                     <li><img src="images/marketplace.png" alt=""><a href="">Marketplace</a></li>
+                     <li><img src="images/watch.png" alt=""><a href="">Watch</a></li>
+                     <li class="more-button"><a href="">See More</a></li>
+                 </ul>
+             </div>
+             <div class="shourt-links">
+                 <p>Your Shortcuts</p>
+                <li><img src="images/shortcut-1.png" ><a href=""> Web Developer</a></li>
+                <li><img src="images/shortcut-2.png" ><a href=""> Web Designer</a></li>
+                <li><img src="images/shortcut-3.png" ><a href=""> Web Developer</a></li>
+                <li><img src="images/shortcut-4.png" ><a href=""> Web Developer</a></li>
+                
+            </div>
+
+            <!-- jjjjjjj -->
+
+            <div class="impt-links">
+                <ul>
+                    <li><img src="images/news.png" ><a href="">Latest News</a></li>
+                    <li><img src="images/friends.png"><a href="">Friends</a></li>
+                    <li><img src="images/group.png" alt=""><a href="">Group</a></li>
+                    <li><img src="images/marketplace.png" alt=""><a href="">Marketplace</a></li>
+                    <li><img src="images/watch.png" alt=""><a href="">Watch</a></li>
+                    <li class="more-button"><a href="">See More</a></li>
+                </ul>
+            </div>
+            <div class="shourt-links">
+                <p>Your Shortcuts</p>
+               <li><img src="images/shortcut-1.png" ><a href=""> Web Developer</a></li>
+               <li><img src="images/shortcut-2.png" ><a href=""> Web Designer</a></li>
+               <li><img src="images/shortcut-3.png" ><a href=""> Web Developer</a></li>
+               <li><img src="images/shortcut-4.png" ><a href=""> Web Developer</a></li>
+               
+           </div>
+
+         </div>
+     <!-- --------------- main-container ------------- -->
+     
+
+     <div class="div_main_container">
+        <div class="gallery">
+
+            <div class="status add-story">
+                <img src="images/upload.png" alt="">
+                <img src="images/status-1.png" alt="" class="bg_img">
+                <p>Post Story</p>
+            </div>
+            <div class="status status-2">
+                <img src="images/member-2.png" alt="">
+                <p>Alison</p>
+                <img src="images/status-2.png" alt="" class="bg_img">
+            </div>
+            <!-- <div class="status status-3">
+                <img src="images/member-3.png" alt="">
+                <p>Jackson</p>
+                <img src="images/status-3.png" alt="" class="bg_img">
+            </div> -->
+            <div class="status status-4">
+                <img src="images/member-4.png" alt="">
+                <img src="images/status-4.png" alt="" class="bg_img">
+                <p> Wip Alison</p>
+            </div>
+            <div class="status status-5">
+                <img src="images/member-5.png" alt="">
+                <p>Johen Deo</p>
+                <img src="images/status-5.png" alt="" class="bg_img">
+            </div> 
+
+        </div>
+
+        <div id="add_post_container" class="add_post_container">
+          <div class="user_profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="userName">
+                  <h2>John Nicholson</h2>
+                  <div class="public">
+                      <p>Public</p>   
+                  </div>
+              </div>
+          </div>
+
+          <div class="add_title">          
+            <div class="discription">
+                <p>
+                    what'son your mind john?
+                </p>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+            </div>
+          
+          <div class="emoji">
+
+            <div class="live_video emoji-icon">
+                <img src="images/live-video.png" alt="">
+                <p>Live Video</p>
+            </div>
+            <div class="photo_video emoji-icon">
+                <img src="images/photo.png" alt="">
+                <p>Photo/Video</p>
+            </div>
+            <div class="felings emoji-icon">
+                <img src="images/feeling.png" alt="">
+                <p>Feling/Activity</p>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+        <!-- check post -->
+
+    <div id="post" class="post">
+            <div class="post-header">
+
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div class="userName">
+                        <h2>John Nicholson</h2>
+                        <div class="public">
+                            <p>Public</p>   
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="dotts">
+                    <img src="images/more.png" alt="">
+                </div>
+            </div>
+
+            <div class="discraption-post">
+                <p>Voluptatibus quos reiciendisequi beatae ea quasi pariatur fugit accusamus , cum fugiat placeat harum.
+                    <a href="">#abdulraffay</a><a href="">#webdesign</a>
+                </p>
+                <img src="images/feed-image-1.png" alt="">
+            </div>
+
+
+            <div class="likes">
+               <div class="like_share">
+                  <div class="like">
+                    <img src="images/like.png" alt="">
+                    <p>120</p>
+                  </div>
+                   <div class="comment">
+                    <img src="images/comments.png" alt="">
+                    <p>45</p>
+                   </div>
+                   <div class="share">
+                    <img src="images/share.png" alt="">
+                    <p>20</p>
+                   </div>
+               </div>
+
+               <div class="profile-icon">
+                <img src="images/profile-pic.png" alt="">
+               </div>
+            </div>
+            
+      </div>
+
+
+      <div class="post">
+        <div class="post-header">
+
+            <div class="user_profile">
+                <img src="images/profile-pic.png" alt="">
+                <div class="userName">
+                    <h2>John Nicholson</h2>
+                    <div class="public">
+                        <p>Public</p>   
+                    </div>   
+                </div>
+            </div>
+
+            <div class="dotts">
+                <img src="images/more.png" alt="">
+            </div>
+        </div>
+
+        <div class="discraption-post">
+            <p>Voluptatibus quos reiciendisequi beatae ea quasi pariatur fugit accusamus , cum fugiat placeat harum.
+                <a href="">#abdulraffay</a><a href="">#webdesign</a>
+            </p>
+            <img src="images/feed-image-2.png" alt="">
+        </div>
+
+
+        <div class="likes">
+           <div class="like_share">
+              <div class="like">
+                <img src="images/like.png" alt="">
+                <p>120</p>
+              </div>
+               <div class="comment">
+                <img src="images/comments.png" alt="">
+                <p>45</p>
+               </div>
+               <div class="share">
+                <img src="images/share.png" alt="">
+                <p>20</p>
+               </div>
+           </div>
+
+           <div class="profile-icon">
+            <img src="images/profile-pic.png" alt="">
+           </div>
+        </div>
+        
+  </div>
+
+
+  <!-- post end -->
+
+
+
+  
+  <div class="post">
+    <div class="post-header">
+
+        <div class="user_profile">
+            <img src="images/profile-pic.png" alt="">
+            <div class="userName">
+                <h2>John Nicholson</h2>
+                <div class="public">
+                    <p>Public</p>   
+                </div>   
+            </div>
+        </div>
+
+        <div class="dotts">
+            <img src="images/more.png" alt="">
+        </div>
+    </div>
+
+    <div class="discraption-post">
+        <p>Voluptatibus quos reiciendisequi beatae ea quasi pariatur fugit accusamus , cum fugiat placeat harum.
+            <a href="">#abdulraffay</a><a href="">#webdesign</a>
+        </p>
+        <img src="images/feed-image-3.png" alt="">
+    </div>
+
+
+    <div class="likes">
+       <div class="like_share">
+          <div class="like">
+            <img src="images/like.png" alt="">
+            <p>120</p>
+          </div>
+           <div class="comment">
+            <img src="images/comments.png" alt="">
+            <p>45</p>
+           </div>
+           <div class="share">
+            <img src="images/share.png" alt="">
+            <p>20</p>
+           </div>
+       </div>
+
+       <div class="profile-icon">
+        <img src="images/profile-pic.png" alt="">
+       </div>
+    </div>
+    
+</div>
+
+
+<!-- post end -->
+
+
+
+<div class="post">
+    <div class="post-header">
+
+        <div class="user_profile">
+            <img src="images/profile-pic.png" alt="">
+            <div class="userName">
+                <h2>John Nicholson</h2>
+                <div class="public">
+                    <p>Public</p>   
+                </div>   
+            </div>
+        </div>
+
+        <div class="dotts">
+            <img src="images/more.png" alt="">
+        </div>
+    </div>
+
+    <div class="discraption-post">
+        <p>Voluptatibus quos reiciendisequi beatae ea quasi pariatur fugit accusamus , cum fugiat placeat harum.
+            <a href="">#abdulraffay</a><a href="">#webdesign</a>
+        </p>
+        <img src="images/feed-image-4.png" alt="">
+    </div>
+
+
+    <div class="likes">
+       <div class="like_share">
+          <div class="like">
+            <img src="images/like.png" alt="">
+            <p>120</p>
+          </div>
+           <div class="comment">
+            <img src="images/comments.png" alt="">
+            <p>45</p>
+           </div>
+           <div class="share">
+            <img src="images/share.png" alt="">
+            <p>20</p>
+           </div>
+       </div>
+
+       <div class="profile-icon">
+        <img src="images/profile-pic.png" alt="">
+       </div>
+    </div>
+    
+</div>
+
+
+<!-- post end -->
+
+
+
+<div class="post">
+    <div class="post-header">
+
+        <div class="user_profile">
+            <img src="images/profile-pic.png" alt="">
+            <div class="userName">
+                <h2>John Nicholson</h2>
+                <div class="public">
+                    <p>Public</p>   
+                </div>   
+            </div>
+        </div>
+
+        <div class="dotts">
+            <img src="images/more.png" alt="">
+        </div>
+    </div>
+
+    <div class="discraption-post">
+        <p>Voluptatibus quos reiciendisequi beatae ea quasi pariatur fugit accusamus , cum fugiat placeat harum.
+            <a href="">#abdulraffay</a><a href="">#webdesign</a>
+        </p>
+        <img src="images/feed-image-5.png" alt="">
+    </div>
+
+
+    <div class="likes">
+       <div class="like_share">
+          <div class="like">
+            <img src="images/like.png" alt="">
+            <p>120</p>
+          </div>
+           <div class="comment">
+            <img src="images/comments.png" alt="">
+            <p>45</p>
+           </div>
+           <div class="share">
+            <img src="images/share.png" alt="">
+            <p>20</p>
+           </div>
+       </div>
+
+       <div class="profile-icon">
+        <img src="images/profile-pic.png" alt="">
+       </div>
+    </div>
+    
+</div>
+
+
+<!-- post end -->
+
+
+
+</div>
+               
+
+
+
+
+    
+
+                 <!-- --------------- gallery end ------------- -->
+
+
+ 
+     <!-- --------------- right-sidebar ------------- -->
+         <div id="right_sidebar" class="right-sidebar right">
+
+             <div class="main-events">
+
+                <div class="events header">
+                    <h2>events</h2>
+                    <p><a href="#">See All</a></p>
+                </div> 
+
+                <div class="socialMedia">
+                    <div class="date-container">
+                        <div class="date"><h2>8</h2></div>
+                        <p>March</p>
+                    </div>
+                    <div class="media">
+                        <h2>social media</h2>
+                        <div class="location">
+                            <img src="images/location.png" alt="">
+                            <p>AbdulRaffay Tech Park</p>
+                        </div>
+                        <a href=""> more info</a>
+                    </div>
+                </div> 
+                <div class="socialMedia midea-m">
+                    <div class="date-container">
+                        <div class="date"><h2>8</h2></div>
+                        <p>March</p>
+                    </div>
+                    <div class="media">
+                        <h2>social media</h2>
+                        <div class="location">
+                            <img src="images/location.png" alt="">
+    
+                            <p>AbdulRaffay Tech Park</p>
+                        </div>
+                        <a href=""> more info</a>
+                    </div>
+                </div> 
+
+             </div>
+<!-- ------------------- events end ------------------- -->
+
+            <div class="adverticement-container">
+                <div class="header">
+                    <h2>Adverticment</h2>
+                    <p><a href="#">close</a></p>
+                </div>
+                <div class="adverticement">
+                    <img src="images/advertisement.png" alt="">
+                </div>
+            </div>
+            <!-- adverticement end -->
+
+            <div class="conversation">
+                <div class="header">
+                    <h2>Conversation</h2>
+                    <p><a href="#">Hide Chat</a></p>
+                </div>
+                <div class="online-agents">
+                    <div class="agent">
+                        <div class="online member-online">
+                            <img src="images/member-1.png" alt="">
+                        </div>
+                        <div class="agent-name">
+                            <p>Alison Mina</p>
+                        </div>
+                    </div>
+                    <div class="agent">
+                        <div class="online member-online">
+                            <img src="images/member-2.png" alt="">
+                        </div>
+                        <div class="agent-name member-online">
+                            <p>Jacksan Astan</p>
+                        </div>
+                    </div>
+                    <div class="agent">
+                        <div class="online member-online">
+                            <img src="images/member-3.png" alt="">
+                        </div>
+                        <div class="agent-name">
+                            <p>Samana Rose</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+         </div>
+     </div>
+
+
+     <script>
+           var a = document.getElementById('user_profile').onclick = poppap;
+           let user_profile_popap = document.getElementById('poppap_hide');
+
+              
+
+           function poppap(){            
+            user_profile_popap.classList.toggle('poppap_hide');
+           }
+
+
+        //    Toggle Btn 
+          
+           let poppap_hide = document.getElementById('poppap_hide');
+           let toggle_wrapper = document.getElementById('toggle_wrapper');
+           let toggle_container = document.getElementById('toggle_container');
+           let toggle_btn = document.getElementById('toggle_btn');
+           let add_post_container = document.getElementById('add_post_container');
+           let post = document.querySelectorAll('.post');
+           let right_sidebar = document.getElementById('right_sidebar');
+           toggle_wrapper.onclick = toggle;
+           let h2 = document.body.children;
+            console.log(h2.length);
+           var a = true;
+
+           function toggle(){
+            
+            if(a){
+                
+                poppap_hide.classList.add('dark_mode_background');        
+                document.body.style.background='black';
+                document.body.style.color='#fff !important';
+                right_sidebar.classList.add('dark-mode');
+                add_post_container.classList.add('dark-mode');
+                toggle_wrapper.style.background = 'black';
+                toggle_btn.style.left = '50%';
+                
+                for (let i = 0; i < post.length; i++) {
+                    post[i].classList.add('dark-mode');
+                }
+                for (let i = 0; i < post.length; i++) {
+                    post[i].classList.add('dark-mode');
+                }
+               a = false;
+            }else{
+                poppap_hide.classList.remove('dark_mode_background');
+                poppap_hide.style.color = 'rgb(37, 35, 35) !important';
+                document.body.style.background='#eee';
+                right_sidebar.classList.remove('dark-mode');
+                add_post_container.classList.remove('dark-mode');
+                toggle_wrapper.style.background = 'rgb(170, 176, 187)';
+                toggle_btn.style.left = '0%';
+
+                for (let i = 0; i < post.length; i++) {
+                    post[i].classList.remove('dark-mode');
+                }
+
+               a = true;
+            }
+
+           }
+     </script>
+</body>
+</html>
